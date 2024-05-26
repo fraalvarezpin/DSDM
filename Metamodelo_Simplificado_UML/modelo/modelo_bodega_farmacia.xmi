@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetamodeloSimplificadoUML:Pakage
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:MetamodeloSimplificadoUML="http://metamodelo-simplificado-uml.ecore"
+    xsi:schemaLocation="http://metamodelo-simplificado-uml.ecore ../metamodelado/metamodelo_simplificado_uml.ecore">
+  <primitivedatatype
+      name="String"/>
+  <primitivedatatype
+      name="Int"/>
+  <Class name="Farmacia">
+    <atributte
+        name="nombre"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="direccion"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="telefono"
+        type="//@primitivedatatype.1"/>
+    <atributte
+        name="ruc"
+        type="//@primitivedatatype.1"/>
+    <atributte
+        name="Bodega"
+        type="//@Class.3"/>
+  </Class>
+  <Class name="Proveedor">
+    <atributte
+        name="nombre"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="direccion"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="telefono"
+        type="//@primitivedatatype.1"/>
+    <atributte
+        name="ruc"
+        type="//@primitivedatatype.1"/>
+  </Class>
+  <Class name="Producto">
+    <atributte
+        name="nombre"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="descripcion"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="proveedor"
+        type="//@Class.1"/>
+  </Class>
+  <Class name="Bodega">
+    <atributte
+        name="nombre"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="ubicacion"
+        type="//@primitivedatatype.0"/>
+    <atributte
+        name="capcidad"
+        type="//@primitivedatatype.1"/>
+    <atributte
+        name="producto"
+        type="//@Class.2"/>
+  </Class>
+</MetamodeloSimplificadoUML:Pakage>

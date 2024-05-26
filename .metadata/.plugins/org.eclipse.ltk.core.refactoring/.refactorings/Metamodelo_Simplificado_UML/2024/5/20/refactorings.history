@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;metamodelo_simplificado_uml.ecore&apos; to &apos;metamodelado&apos;" description="Move &apos;metamodelo_simplificado_uml.ecore&apos; to &apos;metamodelado&apos;" destination="metamodelado" element1="metamodelo_simplificado_uml.ecore" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1716065304344" updateReferences="true"/>
+</session>
